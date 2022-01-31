@@ -1,1 +1,1 @@
-# Pycheckio python practice questions
+# Python practice quetions from Pycheck.io
