@@ -13,9 +13,7 @@ assert is_all_upper("mixed UPPER and lower") == False
 assert is_all_upper("") == True
 '''
 def is_all_upper(a):
-    for i in a.split(' '):
-        if i.islower():
-            return False
-    return True
+    return a.upper() == a
+
 a = "ALL UPPER"
 print(is_all_upper(a))
