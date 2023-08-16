@@ -13,7 +13,5 @@ Output: List or another Iterable (tuple, iterator, generator).
 '''
 
 def remove_all_before(items: list, border: int):
-    if border in items:
-        return items[items.index(border):]
-    return items
+    return items[items.index(border):] if border in items else items
 
